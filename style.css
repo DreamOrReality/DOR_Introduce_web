@@ -146,3 +146,22 @@
     align-items: end;
     margin-bottom: 40px;
 }
+
+.section-7 .info {
+    display: flex;
+    align-items: end;
+}
+
+.section-7 .social {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 10px;
+}
+
+.section-7 .social span {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5px;
+    font-family: 'GmarketSansMedium';
+}
