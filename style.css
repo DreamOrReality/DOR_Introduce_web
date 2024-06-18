@@ -132,3 +132,17 @@
     color: white;
     background-color: var(--secondary-color);
 }
+
+/*section-7*/
+.section-7 {
+    background-color: var(--primary-color);
+    padding: 200px 600px;
+}
+
+.section-7 .role{
+    color: white;
+    font-family: 'PartialSansKR-Regular';
+    display: flex;
+    align-items: end;
+    margin-bottom: 40px;
+}
