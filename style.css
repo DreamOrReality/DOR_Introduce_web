@@ -83,3 +83,19 @@
     font-weight: bold;
     color: var(--secondary-color); 
 }
+
+/*section-4*/
+.section-4{
+    padding: 300px 600px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.section-4 .paragraph-4{
+    font-size: 60px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    color: var(--primary-color);
+    text-align: right;   
+}
