@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -34,7 +34,7 @@
     height: 600px;
 }
 
-.section-1  h3 {
+.section-1 h3 {
     font-size: 40px;
     font-family: 'GmarketSansMedium';
     margin-bottom: 15px;
@@ -52,19 +52,19 @@
 }
 
 /*section-2*/
-.section-2{
+.section-2 {
     padding: 180px 600px;
     justify-content: space-between;
     align-items: center;
     display: flex;
 }
 
-.section-2 .paragraph-2{
+.section-2 .paragraph-2 {
     font-size: 60px;
     font-family: 'GmarketSansMedium';
     font-weight: bold;
     color: var(--primary-color);
-    text-align: right;   
+    text-align: right;
 }
 
 /*section-3*/
@@ -76,27 +76,28 @@
     background-color: var(--section-3-background-color);
 }
 
-.section-3 .paragraph-3{
+.section-3 .paragraph-3 {
     font-size: 60px;
     font-family: 'GmarketSansMedium';
     font-weight: bold;
-    color: var(--secondary-color); 
+    color: var(--secondary-color);
+    text-align: center; /* 가운데 정렬 추가 */
 }
 
 /*section-4*/
-.section-4{
+.section-4 {
     padding: 300px 600px;
     justify-content: space-between;
     align-items: center;
     display: flex;
 }
 
-.section-4 .paragraph-4{
+.section-4 .paragraph-4 {
     font-size: 60px;
     font-family: 'GmarketSansMedium';
     font-weight: bold;
     color: var(--primary-color);
-    text-align: right;   
+    text-align: right;
 }
 
 /*section-5*/
@@ -133,7 +134,7 @@
 }
 
 /*section-6*/
-.section-6{
+.section-6 {
     padding: 300px 800px;
     background-color: var(--section-3-background-color);
 }
@@ -154,10 +155,11 @@
     text-align: center;
 }
 
-.section-6 .paragraph-5{
+.section-6 .paragraph-5 {
     font-size: 30px;
     font-family: 'GmarketSansMedium';
     line-height: 50px;
+    text-align: center; /* 가운데 정렬 추가 */
 }
 
 .secondary-color {
@@ -171,7 +173,7 @@
     padding: 200px 600px;
 }
 
-.section-7 .role{
+.section-7 .role {
     color: white;
     font-family: 'PartialSansKR-Regular';
     display: flex;
@@ -196,4 +198,78 @@
     font-size: 40px;
     margin-bottom: 5px;
     font-family: 'GmarketSansMedium';
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7 {
+        padding: 150px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7 {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 20px;
+    }
+
+    .section-1 img, .section-2 img, .section-3 img, .section-4 img, .section-5 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-5 .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-5 .container1 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .section-7 .role, .section-7 .info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section-7 .social {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-1 h3, .section-1 .app-name, .section-1 .paragraph-1, 
+    .section-2 .paragraph-2, .section-3 .paragraph-3, 
+    .section-4 .paragraph-4, .section-5 .title-3,
+    .section-6 .title-1, .section-6 .title-2, .section-6 .paragraph-5,
+    .section-7 .role, .section-7 .social span {
+        font-size: 20px;
+    }
+
+    .section-7 .role {
+        margin-bottom: 20px;
+    }
+
+    .section-5 img[src*="Group 371.png"] {
+        display: none;
+    }
+
+    /* 추가된 부분 */
+    .section-2 .paragraph-2,
+    .section-4 .paragraph-4 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .section-3 .paragraph-3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .section-5 .title-3 {
+        margin-bottom: 50px;
+    }
 }
