@@ -100,6 +100,19 @@
     text-align: right;   
 }
 
+/*section-5*/
+.section-5 {
+    padding: 180px 600px;
+}
+
+.section-5 .title-3 {
+    color: var(--primary-color);
+    font-size: 60px;
+    font-family: 'PartialSansKR-Regular';
+    text-align: center;
+}
+
+
 /*section-6*/
 .section-6{
     padding: 300px 800px;
