@@ -110,8 +110,28 @@
     font-size: 60px;
     font-family: 'PartialSansKR-Regular';
     text-align: center;
+    margin-bottom: 150px;
 }
 
+.section-5 .container1 {
+    border: 3px solid var(--secondary-color);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.section-5 .container1 .craft {
+    font-size: 30px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-5 .container1 .paragraph-6 {
+    font-size: 20px;
+}
 
 /*section-6*/
 .section-6{
