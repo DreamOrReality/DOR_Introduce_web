@@ -21,6 +21,7 @@
     font-style: normal;
 }
 
+/*section-1*/
 .section-1 {
     background-color: var(--primary-color);
     color: white;
@@ -48,4 +49,21 @@
 .section-1 .paragraph-1 {
     font-size: 30px;
     line-height: 50px;
+}
+
+/*section-2*/
+.section-2{
+    padding: 300px 600px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.section-2 .paragraph-2{
+    font-size: 60px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    color: var(--primary-color);
+    text-align: right;
+    
 }
