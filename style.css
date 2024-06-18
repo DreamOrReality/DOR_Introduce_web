@@ -103,7 +103,6 @@
 /*section-6*/
 .section-6{
     padding: 300px 800px;
-    text-align: center;
     background-color: var(--section-3-background-color);
 }
 
@@ -112,6 +111,7 @@
     font-size: 40px;
     font-family: 'PartialSansKR-Regular';
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .section-6 .title-2 {
@@ -119,10 +119,16 @@
     font-size: 60px;
     font-family: 'PartialSansKR-Regular';
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .section-6 .paragraph-5{
     font-size: 30px;
     font-family: 'GmarketSansMedium';
     line-height: 50px;
+}
+
+.secondary-color {
+    color: white;
+    background-color: var(--secondary-color);
 }
