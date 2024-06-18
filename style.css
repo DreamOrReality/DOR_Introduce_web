@@ -4,7 +4,9 @@
 }
 
 :root {
-    --primary-color: #F76707
+    --primary-color: #F76707;
+    --secondary-color: #2AC1BC;
+    --section-3-background-color: #FDD2B5;
 }
 
 @font-face {
@@ -64,6 +66,21 @@
     font-family: 'GmarketSansMedium';
     font-weight: bold;
     color: var(--primary-color);
-    text-align: right;
-    
+    text-align: right;   
+}
+
+/*section-3*/
+.section-3 {
+    padding: 180px 600px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: var(--section-3-background-color);
+}
+
+.section-3 .paragraph-3{
+    font-size: 60px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    color: var(--secondary-color); 
 }
