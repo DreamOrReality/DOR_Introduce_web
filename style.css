@@ -126,3 +126,8 @@
     font-family: 'GmarketSansMedium';
     line-height: 50px;
 }
+
+.secondary-color {
+    color: white;
+    background-color: var(--secondary-color);
+}
