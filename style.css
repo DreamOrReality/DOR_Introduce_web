@@ -21,15 +21,19 @@
     font-style: normal;
 }
 
-.section-1{
+.section-1 {
     background-color: var(--primary-color);
     color: white;
     justify-content: space-between;
     display: flex;
+    position: relative; 
+    border-bottom-left-radius: 400px;
+    border-bottom-right-radius: 400px;
 }
 
+
 .text-container {
-    padding: 400px;
+    padding: 300px 400px;
 }
 
 .section-1  h3 {
