@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #F76707
+}
+
+@font-face {
+    font-family: 'PartialSansKR-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.section-1{
+    background-color: var(--primary-color);
+    color: white;
+    justify-content: space-between;
+    display: flex;
+}
+
+.text-container {
+    padding: 400px;
+}
+
+.section-1  h3 {
+    font-size: 40px;
+    font-family: 'GmarketSansMedium';
+    margin-bottom: 15px;
+    
+}
+
+.section-1 .app-name {
+    font-family: 'PartialSansKR-Regular';
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.section-1 .paragraph-1 {
+    font-size: 30px;
+    line-height: 50px;
+}
