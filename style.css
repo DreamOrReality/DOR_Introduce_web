@@ -99,3 +99,30 @@
     color: var(--primary-color);
     text-align: right;   
 }
+
+/*section-6*/
+.section-6{
+    padding: 300px 800px;
+    text-align: center;
+    background-color: var(--section-3-background-color);
+}
+
+.section-6 .title-1 {
+    color: var(--secondary-color);
+    font-size: 40px;
+    font-family: 'PartialSansKR-Regular';
+    margin-bottom: 20px;
+}
+
+.section-6 .title-2 {
+    color: var(--primary-color);
+    font-size: 60px;
+    font-family: 'PartialSansKR-Regular';
+    margin-bottom: 40px;
+}
+
+.section-6 .paragraph-5{
+    font-size: 30px;
+    line-height: 50px;
+
+}
