@@ -31,7 +31,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 300px 250px;
-    height: 400px;
+    height: 500px;
 }
 
 .section-1 h3 {
@@ -168,7 +168,6 @@
     font-size: 30px;
     font-family: 'GmarketSansMedium';
     line-height: 50px;
-    text-align: center; /* 가운데 정렬 추가 */
 }
 
 .secondary-color {
