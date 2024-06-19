@@ -30,8 +30,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 300px 500px;
-    height: 600px;
+    padding: 300px 250px;
+    height: 400px;
 }
 
 .section-1 h3 {
@@ -53,7 +53,7 @@
 
 /*section-2*/
 .section-2 {
-    padding: 180px 600px;
+    padding: 180px 250px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -69,7 +69,7 @@
 
 /*section-3*/
 .section-3 {
-    padding: 180px 600px;
+    padding: 180px 250px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -81,12 +81,12 @@
     font-family: 'GmarketSansMedium';
     font-weight: bold;
     color: var(--secondary-color);
-    text-align: center; /* 가운데 정렬 추가 */
+    text-align: left; /* 가운데 정렬 추가 */
 }
 
 /*section-4*/
 .section-4 {
-    padding: 300px 600px;
+    padding: 180px 250px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -106,7 +106,7 @@
 
 /*section-5*/
 .section-5 {
-    padding: 180px 700px;
+    padding: 180px 400px;
 }
 
 .section-5 .container2 {
@@ -144,7 +144,7 @@
 
 /*section-6*/
 .section-6 {
-    padding: 300px 800px;
+    padding: 200px 500px;
     background-color: var(--section-3-background-color);
 }
 
@@ -179,7 +179,7 @@
 /* 이 부분은 이미 작성된 CSS 규칙입니다. */
 .section-7 {
     background-color: var(--primary-color);
-    padding: 200px 600px;
+    padding: 200px 400px;
 }
 
 .section-7 .role {
