@@ -31,7 +31,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 300px 250px;
-    height: 600px;
+    height: 400px;
 }
 
 .section-1 h3 {
@@ -86,7 +86,7 @@
 
 /*section-4*/
 .section-4 {
-    padding: 300px 250px;
+    padding: 180px 250px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -144,7 +144,7 @@
 
 /*section-6*/
 .section-6 {
-    padding: 300px 500px;
+    padding: 200px 500px;
     background-color: var(--section-3-background-color);
 }
 
