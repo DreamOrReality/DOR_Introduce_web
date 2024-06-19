@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+  }
+
 :root {
     --primary-color: #F76707;
     --secondary-color: #2AC1BC;
